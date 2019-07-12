@@ -1,0 +1,114 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+h1 {
+  font: 28px "Century Gothic", Futura, sans-serif;
+  text-align: left;
+  font-weight:bold;
+}
+
+h2 {
+  font: 28px "Century Gothic", Futura, sans-serif;
+  text-align: center;
+}
+
+.Header {
+  background: #fafafa;
+  border-bottom: 1px solid #999;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.first {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  border: 1px solid #999;
+  border-radius: 50%;
+}
+
+.Second {
+  height: 500px;
+  width: 700px;
+}
+
+.Telo {background: #transparent;}
+
+.Section {
+  background: #ffffff;
+  border: 1px solid #999;
+  height: 580px;
+  width: 700px;
+  margin: 30px auto;
+}
+
+.Section-head {
+  background: #fafafa;
+  height: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+  align-items: center;
+}
+
+.Button {
+  background: #fafafa;
+    color: #ff6363;
+  font: 28px "Century Gothic", Futura, sans-serif;
+  text-align: center;
+  height: 60px;
+  width: 100px;
+  margin-left: auto;
+  border: none;
+}
+
+.Add-Section {
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: center;
+
+}
+
+.Add-Button {
+    color: #87e01a;
+    background: #ffffff;
+    font: 28px "Century Gothic", Futura, sans-serif;
+    font-weight:bold;
+    text-align: center;
+    height: 60px;
+    width: 100px;
+    border: 1.5px solid #87e01a;
+    border-radius: 5%;
+}
+
+.title-control {
+    font: 18px "Century Gothic", Futura, sans-serif;
+    text-align: center;
+    width: 242px;
+    height: 30px;
+    border: 0.5px solid #545454;
+    border-radius: 5%;
+    margin-bottom: 30px;
+}
+
+.image_url-control {
+    font: 18px "Century Gothic", Futura, sans-serif;
+    text-align: center;
+    width: 242px;
+    height: 30px;
+    border: 0.5px solid #545454;
+    border-radius: 5%;
+}
